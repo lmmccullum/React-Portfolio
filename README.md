@@ -31,7 +31,10 @@
 # SCREENSHOT
 • The included image demonstrates the application functionality:
 
-[![Demonstrative Video]( PASTE URL HERE     )]
+![Demonstrative Video]( PASTE URL HERE     )
+![Demonstrative Video]( PASTE URL HERE     )
+![Demonstrative Video]( PASTE URL HERE     )
+
 
 # QUESTIONS
 • If you have any questions, concerns or suggestions please feel free to contact me with the link below.
