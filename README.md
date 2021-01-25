@@ -31,9 +31,7 @@
 # SCREENSHOT
 • The included image demonstrates the application functionality:
 
-![Demonstrative Video]( PASTE URL HERE     )
-![Demonstrative Video]( PASTE URL HERE     )
-![Demonstrative Video]( PASTE URL HERE     )
+![Demonstrative Video](https://i.imgur.com/60GiYBh.png)
 
 
 # QUESTIONS
