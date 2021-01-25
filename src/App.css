@@ -27,8 +27,7 @@ color: white;
 padding: 2em;
 }
 
-/* Contact Page CSS */
-.contact-body {
+.about-body {
   margin: auto;
   position: fixed;
   width: 100%;
@@ -37,6 +36,26 @@ padding: 2em;
   padding-top: 2em;
 }
 
+.about-grid {
+  text-align: center;
+  justify-content: center;
+  width: 75%;
+  height: 600px;
+  background: white;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.about-grid h2 {
+  font-family: 'Anton', sans-serif;
+}
+
+.about-grid p {
+  font-family: 'Oxygen', sans-serif;
+  font-weight: bold;
+}
+
+/* Contact Page CSS */
 .contact-grid {
   text-align: center;
   justify-content: center;
@@ -49,11 +68,6 @@ padding: 2em;
 
 .contact-grid h2 {
   font-family: 'Anton', sans-serif;
-}
-
-.contact-grid p {
-  font-family: 'Oxygen', sans-serif;
-  font-weight: bold;
 }
 
 .contact-grid hr {
