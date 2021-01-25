@@ -10,62 +10,146 @@ class Projects extends Component {
 
     toggleCategories() {
 
-    if(this.state.activeTab === 0) {
-        return(
-            <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-             <CardTitle style={{color: 'black', height: '176px', background: 'url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png) center / cover'}}>React Project #1</CardTitle>    
-            <CardText>
-            Latisha Marie McCullum
-            </CardText>
-            <CardActions border>
-                <button colored>Deployed</button>
-                <button colored>GitHub</button>
-            </CardActions>
-            <CardMenu style={{color: '#eff'}}>
-              <iconButton name="share" />  
-            </CardMenu>
-            </Card>
-        )
-    } else if(this.state.activeTab === 1) {
-        return(
-            <div><h1>This Is JavaScript</h1></div>
-        )
-    } else if(this.state.activeTab === 2) {
-        return(
-            <div><h1>This Is MongoDB</h1></div>
-        )
-    } else if(this.state.activeTab === 3) {
-        return(
-            <div><h1>This Is Express</h1></div>
-        )
-    } else if(this.state.activeTab === 4) {
-        return(
-            <div><h1>This Is Heroku</h1></div>
-        )
+        if (this.state.activeTab === 0) {
+            return (
+
+            // React/ #1   
+                <div className="projects-grid">
+                    <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+                        <CardTitle style={{ color: 'black', height: '176px', background: 'url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png) center / cover' }}>Employee Directory</CardTitle>
+                        <CardText>
+                        This is an application that allows a user to be able to view their entire employee directory at once and have quick access to their information.
+                        </CardText>
+                        <CardActions border>
+                        <Button colored={{display: "table-cell"}} href="https://lmmccullum.github.io/Employee-Directory/" target="_blank">Deployed</Button>
+                        <Button colored={{display: "table-cell"}} href="https://github.com/lmmccullum/Employee-Directory.git" target="_blank">GitHub</Button>
+                        </CardActions>
+                        <CardMenu style={{ color: '#fff' }}>
+                            <IconButton name="share" />
+                        </CardMenu>
+                    </Card>
+
+                {/* React #2 */}
+
+                    <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+                        <CardTitle style={{ color: 'black', height: '176px', background: 'url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png) center / cover' }}>Collaborative Event Planner</CardTitle>
+                        <CardText>
+                            DESCRIPTION OF: Collaborative Event Planner
+                        </CardText>
+                        <CardActions border>
+                        <Button colored={{display: "table-cell"}} href="" target="_blank">Deployed</Button>
+                        <Button colored={{display: "table-cell"}} href="https://github.com/jmyardley/collaborative-event-planner.git" target="_blank">GitHub</Button>
+                        </CardActions>
+                        <CardMenu style={{ color: '#fff' }}>
+                            <IconButton name="share" />
+                        </CardMenu>
+                    </Card>
+                </div>
+            )
+ 
+        } else if (this.state.activeTab === 1) {
+                return (
+
+                    // JavaScript
+                    <div className="projects-grid">
+                    <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+                        <CardTitle style={{ color: 'black', height: '176px', background: 'url(https://i.imgur.com/yA8CYOZ.png) center / cover' }}>Work Day Planner</CardTitle>
+                        <CardText>
+                        This is a simple calendar application that allows a user to manage their time effectively by saving events to the Planner for each hour of the day.
+                        </CardText>
+                        <CardActions border>
+                        <Button colored={{display: "table-cell"}} href="https://lmmccullum.github.io/Work-Day-Planner/" target="_blank">Deployed</Button>
+                        <Button colored={{display: "table-cell"}} href="https://github.com/lmmccullum/Work-Day-Planner.git" target="_blank">GitHub</Button>
+                        </CardActions>
+                        <CardMenu style={{ color: '#fff' }}>
+                            <IconButton name="share" />
+                        </CardMenu>
+                    </Card>
+                    </div>
+                )
+            } else if (this.state.activeTab === 2) {
+                return (
+
+                    // MongoDB
+                    <div className="projects-grid">
+                    <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+                        <CardTitle style={{ color: 'black', height: '176px', background: 'url(https://magazine.odroid.com/wp-content/uploads/mongo-db-logo.png) bottom / cover' }}>Online/Offline Budget Tracker</CardTitle>
+                        <CardText>
+                        This is a Budget Tracker application that allows a user to add expenses and deposits to their budget with or without a connection.
+                        </CardText>
+                        <CardActions border>
+                        <Button colored={{display: "table-cell"}} href="https://frozen-crag-31486.herokuapp.com/" target="_blank">Deployed</Button>
+                        <Button colored={{display: "table-cell"}} href="https://github.com/lmmccullum/Online-Offline-Budget-Trackers.git" target="_blank">GitHub</Button>
+                        </CardActions>
+                        <CardMenu style={{ color: '#fff' }}>
+                            <IconButton name="share" />
+                        </CardMenu>
+                    </Card>
+                    </div>
+                )
+            } else if (this.state.activeTab === 3) {
+                return (
+
+                    // Express
+                    <div className="projects-grid">
+                    <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+                        <CardTitle style={{ color: 'black', height: '176px', background: 'url(https://miro.medium.com/max/1051/1*q9myzo5Au8OfsaSrCodNmw.png) center / cover' }}>Note Taker</CardTitle>
+                        <CardText>
+                        This is an application that allows a User to be able to write, save, and delete notes written before in order to organize thoughts and keep track of tasks that needs to be complete.
+                        </CardText>
+                        <CardActions border>
+                        <Button colored={{display: "table-cell"}} href="https://cryptic-hamlet-17782.herokuapp.com/" target="_blank">Deployed</Button>
+                        <Button colored={{display: "table-cell"}} href="https://github.com/lmmccullum/Note-Taker" target="_blank">GitHub</Button>
+                        </CardActions>
+                        <CardMenu style={{ color: '#fff' }}>
+                            <IconButton name="share" />
+                        </CardMenu>
+                    </Card>
+                    </div>
+                )
+            } else if (this.state.activeTab === 4) {
+                return (
+
+                    // Heroku
+                    <div className="projects-grid">
+                    <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+                        <CardTitle style={{ color: 'black', height: '176px', background: 'url(https://miro.medium.com/max/3200/1*F83F9d1ki3fG6LMG3AvIMg.png) center / cover' }}>Stellar Covid Test Scheduler App</CardTitle>
+                        <CardText>
+                        This application is used to schedule covid tests for anyone who wants to know their status and color codes available and non-available day/time slots.
+                        </CardText>
+                        <CardActions border>
+                        <Button colored={{display: "table-cell"}} href="https://thawing-beach-04875.herokuapp.com/" target="_blank">Deployed</Button>
+                        <Button colored={{display: "table-cell"}} href="https://github.com/jmyardley/stellar-app" target="_blank">GitHub</Button>  
+                        </CardActions>
+                        <CardMenu style={{ color: '#fff' }}>
+                            <IconButton name="share" />
+                        </CardMenu>
+                    </Card>
+                    </div>
+                )
+            }
+
+        }
+        render() {
+            return (
+                <div className="category-tabs">
+                    <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
+                        <Tab>React</Tab>
+                        <Tab>JavaScript</Tab>
+                        <Tab>MongoDB</Tab>
+                        <Tab>Express</Tab>
+                        <Tab>Heroku</Tab>
+                    </Tabs>
+
+                        <Grid>
+                            <Cell col={12}>
+                                <div className="content">{this.toggleCategories()}</div>
+                            </Cell>
+                        </Grid>
+                    
+                </div>
+            )
+        }
     }
 
-}
-    render() {
-        return(
-            <div className="category-tabs">
-                <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
-                    <Tab>React</Tab>
-                    <Tab>JavaScript</Tab>
-                    <Tab>MongoDB</Tab>
-                    <Tab>Express</Tab>
-                    <Tab>Heroku</Tab>
-                </Tabs>
-
-                <section className="projects-grid">
-                    <Grid className="projects-grid">
-                        <Cell col={12}>
-                        <div className="content">{this.toggleCategories()}</div>
-                        </Cell>
-                    </Grid>
-                </section>
-            </div>
-        )
-    }
-}
-
-export default Projects;
+    export default Projects;
