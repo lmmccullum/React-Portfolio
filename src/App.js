@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./App.css";
-import { Layout, Header, Navigation, Drawer, Content, Footer, FooterSection, FooterLinkList } from 'react-mdl';
+import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
 import Main from "./components/Main";
 import { Link } from "react-router-dom"
 import "./components/FooterPage";
@@ -33,15 +33,7 @@ class App extends Component {
               <Main/>
           </Content>
       </Layout>
-
-      <Footer size="mini">
-    <FooterSection type="left" logo="Title">
-        <FooterLinkList>
-            <p>Latisha McCullum</p>
-        </FooterLinkList>
-    </FooterSection>
-</Footer>
-  </div>
+      </div>
     );
   }
 }

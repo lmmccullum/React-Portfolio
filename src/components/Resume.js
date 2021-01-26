@@ -19,7 +19,7 @@ class Resume extends Component {
                         <h2 style={{paddingTop: '2em'}}>Latisha McCullum</h2>
                         <h4 style={{color: 'grey'}}>Full Stack Web Developer</h4>
                         <hr style={{borderTop: '3px solid #833fb2', width: '50%'}} />
-                            <p> PLEASE CLICK FOR FULL RESUME </p>
+                            <p> PLEASE CLICK FOR DOWNLOADABLE RESUME </p>
                             <Button colored href={resume} target="_blank"><i className="fa fa-file" aria-hidden="true" /></Button>
                         <hr style={{borderTop: '3px solid #833fb2', width: '50%'}} />
                             <h5>Address</h5>
