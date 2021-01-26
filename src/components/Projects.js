@@ -13,10 +13,10 @@ class Projects extends Component {
         if (this.state.activeTab === 0) {
             return (
 
-            // React/ #1   
+                // React/ #1   
                 <div className="projects-grid">
                     <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-                        <CardTitle style={{ color: 'black', height: '176px', background: 'url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png) center / cover' }}>Employee Directory</CardTitle>
+                        <CardTitle style={{ color: 'black', height: '176px', background: 'url(https://i.imgur.com/cISTyU4.png) center / cover' }}>Employee Directory</CardTitle>
                         <CardText>
                         This is an application that allows a user to be able to view their entire employee directory at once and have quick access to their information.
                         </CardText>
@@ -34,7 +34,7 @@ class Projects extends Component {
                     <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
                         <CardTitle style={{ color: 'black', height: '176px', background: 'url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png) center / cover' }}>Collaborative Event Planner</CardTitle>
                         <CardText>
-                            DESCRIPTION OF: Collaborative Event Planner
+                            DESCRIPTION OF: Collaborative Event Planner! This is my Final Project and is still under construction. Keep an eye out for it as it will posted very soon.
                         </CardText>
                         <CardActions border>
                         <Button colored={{display: "table-cell"}} href="" target="_blank">Deployed</Button>
@@ -53,7 +53,7 @@ class Projects extends Component {
                     // JavaScript
                     <div className="projects-grid">
                     <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-                        <CardTitle style={{ color: 'black', height: '176px', background: 'url(https://i.imgur.com/yA8CYOZ.png) center / cover' }}>Work Day Planner</CardTitle>
+                        <CardTitle style={{ color: 'black', height: '176px', background: 'url(https://i.imgur.com/cczBF7u.png) center / cover' }}>Work Day Planner</CardTitle>
                         <CardText>
                         This is a simple calendar application that allows a user to manage their time effectively by saving events to the Planner for each hour of the day.
                         </CardText>
@@ -73,7 +73,7 @@ class Projects extends Component {
                     // MongoDB
                     <div className="projects-grid">
                     <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-                        <CardTitle style={{ color: 'black', height: '176px', background: 'url(https://magazine.odroid.com/wp-content/uploads/mongo-db-logo.png) bottom / cover' }}>Online/Offline Budget Tracker</CardTitle>
+                        <CardTitle style={{ color: 'black', height: '176px', background: 'url(https://i.imgur.com/n4clabd.png) bottom / cover' }}>Online/Offline Budget Tracker</CardTitle>
                         <CardText>
                         This is a Budget Tracker application that allows a user to add expenses and deposits to their budget with or without a connection.
                         </CardText>
@@ -93,7 +93,7 @@ class Projects extends Component {
                     // Express
                     <div className="projects-grid">
                     <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-                        <CardTitle style={{ color: 'black', height: '176px', background: 'url(https://miro.medium.com/max/1051/1*q9myzo5Au8OfsaSrCodNmw.png) center / cover' }}>Note Taker</CardTitle>
+                        <CardTitle style={{ color: 'black', height: '176px', background: 'url(https://i.imgur.com/qJQbeGF.png) center / cover' }}>Note Taker</CardTitle>
                         <CardText>
                         This is an application that allows a User to be able to write, save, and delete notes written before in order to organize thoughts and keep track of tasks that needs to be complete.
                         </CardText>
@@ -113,7 +113,7 @@ class Projects extends Component {
                     // Heroku
                     <div className="projects-grid">
                     <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-                        <CardTitle style={{ color: 'black', height: '176px', background: 'url(https://miro.medium.com/max/3200/1*F83F9d1ki3fG6LMG3AvIMg.png) center / cover' }}>Stellar Covid Test Scheduler App</CardTitle>
+                        <CardTitle style={{ color: 'black', height: '176px', background: 'url(https://i.imgur.com/gEVi2Ry.png) center / cover' }}>Stellar Covid Test Scheduler App</CardTitle>
                         <CardText>
                         This application is used to schedule covid tests for anyone who wants to know their status and color codes available and non-available day/time slots.
                         </CardText>
