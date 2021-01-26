@@ -33,6 +33,7 @@
 
 ![Demonstrative Video](https://i.imgur.com/60GiYBh.png)
 
+DEPLOYED URL: "https://guarded-ridge-68552.herokuapp.com/"
 
 # QUESTIONS
 • If you have any questions, concerns or suggestions please feel free to contact me with the link below.
